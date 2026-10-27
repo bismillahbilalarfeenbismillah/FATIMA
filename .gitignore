@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Encoded test artifacts (keep the papers)
+*.fatima
+!FATIMA_paper.fatima
+!Ghayb_11C_paper.fatima
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+papers/Bismillah_Al_Furqan_H_Restored_First_Edition_Bismillah.md
+papers/Bismillah_Al_Furqan_H_Restored_First_Edition_1_Bismillah.md
+papers/Bismillah_Al_Furqan_H_Restored_First_Edition_2_Bismillah.md
+papers/Bismillah_Al_Furqan_H_Restored_First_Edition_3_Bismillah.md
